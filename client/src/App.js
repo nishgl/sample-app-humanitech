@@ -50,7 +50,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="products-app">
-        <h1>Humanitec Sample App</h1>
+        <h1>Humanitec Sample App test run</h1>
         <h2>Task list</h2>
         <ProductCreator onCreate={this.handleProductCreated} />
         <Products products={this.state.products} loading={this.state.productsLoading} />
